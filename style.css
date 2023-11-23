@@ -95,6 +95,7 @@
   padding: 32px;
   border-radius: 8px;
   box-shadow: var(--l);
+  margin-bottom: 10px;
 }
 
 .portail .services {
@@ -134,19 +135,35 @@
   font-style: var(--text-l-l-reg-font-style);
 }
 
-.portail .overlap {
+.portail .background {
   height: 336px;
   top: 1493px;
   background-color: var(--baseblack);
+  z-index: 0;
   position: absolute;
-  width: 100%;
   left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.portail .overlap {
+  z-index: 1;
+
+  background-color: var(--baseblack);
+  position: absolute;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
 .portail .capture-decran {
+  z-index: 1;
   width: 1104px;
   height: 336px;
 
@@ -163,7 +180,7 @@
   line-height: var(--titles-h3-line-height);
   white-space: nowrap;
   font-style: var(--titles-h3-font-style);
-  margin-left: -1000px;
+  left: 0;
 }
 
 .portail .frame {
@@ -370,3 +387,15 @@
   left: 5px;
   object-fit: cover;
 }
+
+.services-title {
+  width: 80%;
+  display: flex;
+  max-width: 1211px;
+}
+
+
+.services-title-text {
+  left: 0;
+}
+
