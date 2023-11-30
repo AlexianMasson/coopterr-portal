@@ -9,7 +9,7 @@
 .portail .div {
   background-color: #ffffff;
   width: 100%;
-  height: 1829px;
+  height: 1600px;
   position: relative;
 }
 
@@ -87,7 +87,7 @@
   max-width: 1211px;
   gap: 12px;
   position: absolute;
-  top: 662px;
+  top: 525px;
   background-color: var(--baseblack);
   display: flex;
   flex-direction: column;
@@ -100,7 +100,7 @@
 
 .portail .services {
   width: 100%;
-  top: 991px;
+  top: 850px;
   gap: 12px;
   justify-content: center;
   position: absolute;
@@ -137,7 +137,7 @@
 
 .portail .background {
   height: 336px;
-  top: 1493px;
+  top: 1264px;
   background-color: var(--baseblack);
   z-index: 0;
   position: absolute;
