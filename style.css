@@ -323,11 +323,13 @@
   padding: 32px;
   flex: 1;
   flex-grow: 1;
-  background-color: var(--neutral-100);
+  background-color: var(--basewhite);
   border-radius: 8px;
   display: flex;
   position: relative;
   align-self: stretch;
+  gap: 24px;
+  box-shadow: var(--l);
 }
 
 .portail .img {
